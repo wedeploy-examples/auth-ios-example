@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4DB6541F29F19900534F08 /* Pods_Boilerplate_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DB6531F29F19900534F08 /* Pods_Boilerplate_auth.framework */; };
 		572DE6EE1E9B6F2E00FA6017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DE6ED1E9B6F2E00FA6017 /* AppDelegate.swift */; };
 		572DE6F01E9B6F2E00FA6017 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DE6EF1E9B6F2E00FA6017 /* LoginViewController.swift */; };
 		572DE6F31E9B6F2E00FA6017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572DE6F11E9B6F2E00FA6017 /* Main.storyboard */; };
@@ -28,12 +29,13 @@
 		57ED47F11E9B820A00B4D097 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED47F01E9B820A00B4D097 /* ResetPasswordViewController.swift */; };
 		57ED47F31E9B82F100B4D097 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED47F21E9B82F100B4D097 /* SignUpViewController.swift */; };
 		57ED47F51E9B85B100B4D097 /* WeBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED47F41E9B85B100B4D097 /* WeBackButton.swift */; };
-		EDDF5ECBCFA20D71F9B0E376 /* Pods_Boilerplate_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FB7BD4732C246401B4E463 /* Pods_Boilerplate_auth.framework */; };
+		988FB7159DC7B07E356EC877 /* Pods_Boilerplate_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE051D91E90FABA790F5FEC /* Pods_Boilerplate_auth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46003F1041642700BAF26E07 /* Pods-Boilerplate-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth.release.xcconfig"; sourceTree = "<group>"; };
-		512F9DFC2049F73B407319F9 /* Pods-Boilerplate-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth.debug.xcconfig"; sourceTree = "<group>"; };
+		0B4DB6531F29F19900534F08 /* Pods_Boilerplate_auth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Boilerplate_auth.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Boilerplate-auth-exieqsvgmwweftddogpdvlayfbwm/Build/Products/Debug-iphonesimulator/Pods_Boilerplate_auth.framework"; sourceTree = "<group>"; };
+		30A203CE77F6FF8630B14265 /* Pods-Boilerplate-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth.debug.xcconfig"; sourceTree = "<group>"; };
+		4F37B1CDC01FD622A1771D84 /* Pods-Boilerplate-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth.release.xcconfig"; sourceTree = "<group>"; };
 		572DE6EA1E9B6F2E00FA6017 /* Boilerplate-auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boilerplate-auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572DE6ED1E9B6F2E00FA6017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572DE6EF1E9B6F2E00FA6017 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +59,7 @@
 		57ED47F01E9B820A00B4D097 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		57ED47F21E9B82F100B4D097 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		57ED47F41E9B85B100B4D097 /* WeBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeBackButton.swift; sourceTree = "<group>"; };
-		B2FB7BD4732C246401B4E463 /* Pods_Boilerplate_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boilerplate_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE051D91E90FABA790F5FEC /* Pods_Boilerplate_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boilerplate_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,20 +67,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDF5ECBCFA20D71F9B0E376 /* Pods_Boilerplate_auth.framework in Frameworks */,
+				0B4DB6541F29F19900534F08 /* Pods_Boilerplate_auth.framework in Frameworks */,
+				988FB7159DC7B07E356EC877 /* Pods_Boilerplate_auth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AECA5A13A31EAF5B062657F /* Pods */ = {
+		0EBB30665C8E1BDDA9C6B384 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				512F9DFC2049F73B407319F9 /* Pods-Boilerplate-auth.debug.xcconfig */,
-				46003F1041642700BAF26E07 /* Pods-Boilerplate-auth.release.xcconfig */,
+				0B4DB6531F29F19900534F08 /* Pods_Boilerplate_auth.framework */,
+				8AE051D91E90FABA790F5FEC /* Pods_Boilerplate_auth.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		572DE6E11E9B6F2E00FA6017 = {
@@ -86,8 +89,8 @@
 			children = (
 				572DE6EC1E9B6F2E00FA6017 /* Boilerplate-auth */,
 				572DE6EB1E9B6F2E00FA6017 /* Products */,
-				3AECA5A13A31EAF5B062657F /* Pods */,
-				C0B856C6D6483A59FAEBCF8B /* Frameworks */,
+				CD3D6EEA711B9699CA72E106 /* Pods */,
+				0EBB30665C8E1BDDA9C6B384 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,12 +155,13 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		C0B856C6D6483A59FAEBCF8B /* Frameworks */ = {
+		CD3D6EEA711B9699CA72E106 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2FB7BD4732C246401B4E463 /* Pods_Boilerplate_auth.framework */,
+				30A203CE77F6FF8630B14265 /* Pods-Boilerplate-auth.debug.xcconfig */,
+				4F37B1CDC01FD622A1771D84 /* Pods-Boilerplate-auth.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572DE6FC1E9B6F2E00FA6017 /* Build configuration list for PBXNativeTarget "Boilerplate-auth" */;
 			buildPhases = (
-				507C347EE37AFBA384D0A9AE /* [CP] Check Pods Manifest.lock */,
+				68CF07E67128DEE7B0A7C904 /* [CP] Check Pods Manifest.lock */,
 				572DE6E61E9B6F2E00FA6017 /* Sources */,
 				572DE6E71E9B6F2E00FA6017 /* Frameworks */,
 				572DE6E81E9B6F2E00FA6017 /* Resources */,
-				FE180D1B6855ABA8314DC9AD /* [CP] Embed Pods Frameworks */,
-				364A664FF95F8F472F9C00E3 /* [CP] Copy Pods Resources */,
+				3944AEC18B6032813D43D8A2 /* [CP] Embed Pods Frameworks */,
+				B17FA99AC0ACDA992CD64B37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +240,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		364A664FF95F8F472F9C00E3 /* [CP] Copy Pods Resources */ = {
+		3944AEC18B6032813D43D8A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/WeDeploy/WeDeploy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeDeploy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68CF07E67128DEE7B0A7C904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boilerplate-auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17FA99AC0ACDA992CD64B37 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,36 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		507C347EE37AFBA384D0A9AE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FE180D1B6855ABA8314DC9AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate-auth/Pods-Boilerplate-auth-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -367,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -421,27 +439,31 @@
 		};
 		572DE6FD1E9B6F2E00FA6017 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 512F9DFC2049F73B407319F9 /* Pods-Boilerplate-auth.debug.xcconfig */;
+			baseConfigurationReference = 30A203CE77F6FF8630B14265 /* Pods-Boilerplate-auth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Boilerplate-auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liferay.Boilerplate-auth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		572DE6FE1E9B6F2E00FA6017 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46003F1041642700BAF26E07 /* Pods-Boilerplate-auth.release.xcconfig */;
+			baseConfigurationReference = 4F37B1CDC01FD622A1771D84 /* Pods-Boilerplate-auth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Boilerplate-auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liferay.Boilerplate-auth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -455,7 +477,7 @@
 				572DE6FB1E9B6F2E00FA6017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		572DE6FC1E9B6F2E00FA6017 /* Build configuration list for PBXNativeTarget "Boilerplate-auth" */ = {
 			isa = XCConfigurationList;
@@ -464,7 +486,7 @@
 				572DE6FE1E9B6F2E00FA6017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,7 +17,7 @@ import UIKit
 
 class BaseViewController: UIViewController {
 	
-	let authUrl = "https://auth-boilerplateauth.wedeploy.sh"
+	let authUrl = "https://auth-boilerplateauth.wedeploy.io"
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -25,7 +25,7 @@ class BaseViewController: UIViewController {
 		view.addGestureRecognizer(tapGesture)
 	}
 	
-	func handleScreenTap() {
+	@objc func handleScreenTap() {
 		view.endEditing(true)
 	}
 	

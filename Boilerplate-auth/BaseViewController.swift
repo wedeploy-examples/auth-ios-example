@@ -16,28 +16,28 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-	
-	let authUrl = "https://auth-boilerplateauth.wedeploy.io"
-	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleScreenTap))
-		view.addGestureRecognizer(tapGesture)
-	}
-	
-	@objc func handleScreenTap() {
-		view.endEditing(true)
-	}
-	
-	func showAlert(with title: String, message: String) {
-		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-		let action = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-		alert.addAction(action)
-		
-		present(alert, animated: true, completion: nil)
-	}
-	
-	@IBAction func goBack() {
-		self.navigationController?.popViewController(animated: true)
-	}
+  
+  let authUrl = "https://auth-boilerplateauth.wedeploy.io"
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleScreenTap))
+    view.addGestureRecognizer(tapGesture)
+  }
+  
+  @objc func handleScreenTap() {
+    view.endEditing(true)
+  }
+  
+  func showAlert(with title: String, message: String) {
+    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    let action = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+    alert.addAction(action)
+    
+    present(alert, animated: true, completion: nil)
+  }
+  
+  @IBAction func goBack() {
+    self.navigationController?.popViewController(animated: true)
+  }
 }

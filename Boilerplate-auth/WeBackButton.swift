@@ -17,25 +17,25 @@ import UIKit
 
 class WeBackButton: UIButton {
 
-	override init(frame: CGRect) {
-		super.init(frame: frame)
-		initialize()
-	}
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    initialize()
+  }
 
-	required init?(coder aDecoder: NSCoder) {
-		super.init(coder: aDecoder)
-	}
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+  }
 
-	override func awakeFromNib() {
-		super.awakeFromNib()
+  override func awakeFromNib() {
+    super.awakeFromNib()
 
-		initialize()
-	}
+    initialize()
+  }
 
-	func initialize() {
-		titleLabel?.font = UIFont.iconFont12px(ofSize: 24)
-		setTitle(.back, for: .normal)
-		setTitleColor(.WePlaceholderTextColor, for: .normal)
-	}
+  func initialize() {
+    titleLabel?.font = UIFont.iconFont12px(ofSize: 24)
+    setTitle(.back, for: .normal)
+    setTitleColor(.WePlaceholderTextColor, for: .normal)
+  }
 
 }

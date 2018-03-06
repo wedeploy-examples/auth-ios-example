@@ -16,25 +16,25 @@ import UIKit
 import WeDeploy
 
 class ResetPasswordViewController: BaseViewController {
-	
-	@IBOutlet weak var emailTextField: UITextField!
-	
-	@IBAction func resetPasswordButtonClick() {
-		guard let email = emailTextField.text else {
-			print("You have to fill the email field")
-			return
-		}
-		
-		WeDeploy.auth(authUrl)
-			.sendPasswordReset(email: email)
-			.toCallback { success, error in
-				if let _ = success {
-					self.showAlert(with: "Success", message: "Email sent")
-				}
-				else {
-					self.showAlert(with: "Error", message: "Error while sending mail")
-				}
-			}
-	}
+  
+  @IBOutlet weak var emailTextField: UITextField!
+  
+  @IBAction func resetPasswordButtonClick() {
+    guard let email = emailTextField.text else {
+      print("You have to fill the email field")
+      return
+    }
+    
+    WeDeploy.auth(authUrl)
+      .sendPasswordReset(email: email)
+      .toCallback { success, error in
+        if let _ = success {
+          self.showAlert(with: "Success", message: "Email sent")
+        }
+        else {
+          self.showAlert(with: "Error", message: "Error while sending mail")
+        }
+      }
+  }
 
 }
